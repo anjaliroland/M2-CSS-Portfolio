@@ -13,6 +13,16 @@ body {
     background-color: papayawhip;
 }
 
+nav a:hover {
+    color: goldenrod;
+    text-decoration-line: underline;
+}
+
+.column {
+    display: flex;
+    flex-direction: column
+  }
+
 .header {
     padding: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -41,6 +51,7 @@ body {
     display: inline-block;
     margin-left: 20px;
 }
+
 
 p {
     font-size: 18px;
