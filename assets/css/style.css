@@ -10,7 +10,7 @@ a {
 }
 
 body {
-    background-color: papayawhip;
+    background-color: rgb(245, 237, 224);
 }
 
 nav a:hover {
@@ -19,11 +19,29 @@ nav a:hover {
 }
 
 .banner { 
-    height: 300px;
+    height: 250px;
     width: 100%;
     margin-bottom: 25px;
+    background-image: url(../images/banner.JPG);
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.banner h2 {
+    flex-wrap: wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15%;
+    margin-left: 75%;
+    margin-right: 5%;
+    background-color: peachpuff;
+    color: darkolivegreen;
+    font-size: 18px;
 }
 
 .column {
