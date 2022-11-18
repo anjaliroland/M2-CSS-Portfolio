@@ -55,7 +55,7 @@ nav a:hover {
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
-    position; -webkit-sticky;
+    position: -webkit-sticky;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: peachpuff;
     color: darkolivegreen;
