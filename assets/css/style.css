@@ -1,8 +1,9 @@
 * {
-   box-sizing: border-box;
-   padding: 0%;
-   margin: 0%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 
 a {
     color: darkolivegreen;
@@ -17,11 +18,11 @@ nav a:hover {
     color: goldenrod;
     text-decoration-line: underline;
 }
-
+/*banner styling*/
 .banner { 
     height: 250px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     background-image: url(../images/banner.JPG);
     background-size: cover;
     background-position: center;
@@ -36,21 +37,25 @@ nav a:hover {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
     text-align: center;
-    margin: 15%;
+    margin: 10%;
     margin-left: 75%;
     margin-right: 5%;
     background-color: peachpuff;
     color: darkolivegreen;
     font-size: 18px;
 }
-
+/*Main section styling*/
 .column {
     display: flex;
     flex-direction: column
   }
-
+/*header styling*/
 .header {
-    padding: 20px;
+    padding: 20px 35px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    position; -webkit-sticky;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: peachpuff;
     color: darkolivegreen;
@@ -77,8 +82,241 @@ nav a:hover {
     display: inline-block;
     margin-left: 20px;
 }
+/*footer styling*/
+footer {
+    height: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+}
+/* About Me + Contact Styling*/
+.photo {
+    width: 10%;
+    height: auto;
+    padding-left: 1%;
+}
+
+.section {
+        background-color:rgb(248, 244, 237);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.section p, .section a {
+    line-height: 1;
+    color: slategrey;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
+
+.section-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: olive;
+    margin: 5 auto 0 auto;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    border-right: olive solid 3px;
+}
+.flex-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto 0 auto;
+        width: 90%;
+}
+
+/* Portfolio projects*/
+.work-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: olive;
+    margin: 5 auto 0 auto;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    height: 1250px; 
+    border-right: olive solid 3px;
+}
+
+.work-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
+}
+
+.work-flex p {
+    display: inline-block;
+    text-align: start;
+    background-color: rgb(248, 244, 237);
+    opacity: 85%;
+    width: 45%;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+}
+
+.main-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    height: 650px;
+    width: 95%;
+}
+
+.seattle-art {
+    background-image: url("../images/MoPop.JPG");
+    background-size: cover;
+    width: 90%;
+    height: 475px;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    border: darkolivegreen 5px solid;
+    position: relative;
+}
+
+.seattle-art:hover {
+        opacity: 75%;
+    
+}
+
+.other-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+    width: 90%;
+}
+
+.snow-days {
+    background-image: url(../images/snow.JPG);
+    background-size: cover;
+    width: 45%;
+    height: 300px;
+    margin-top: auto;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: darkolivegreen 5px solid;
+    position: relative;
+}
+
+.snow-days:hover {
+    opacity: 75%;
+}
+
+.park-play {
+    background-image: url(../images/picnic.JPG);
+    background-size: cover;
+    width: 45%;
+    height: 300px;
+    margin-top: auto;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border: olive 5px solid;
+    position: relative; 
+}
+
+.park-play:hover {
+    opacity: 75%;
+}
+
+.trail-buddy {
+    background-image: url(../images/hike.JPG);
+    background-size: cover;
+    width: 45%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border: olive 5px solid;
+    position: relative; 
+}
+
+.trail-buddy:hover {
+    opacity: 75%;
+}
+
+.live-tonight {
+    background-image: url(../images/concert.jpeg);
+    background-size: cover;
+    width: 45%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border: olive 5px solid;
+    position: relative; 
+}
+
+.live-tonight:hover {
+    opacity: 75%;
+}
 
 
-p {
-    font-size: 18px;
+/*for smaller desktops*/
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+    }
+    
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-title {
+        width: 20%;
+    }
+}
+  
+  /* for tablets */
+@media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+}
+  
+/* For Phones and Smaller screens*/
+@media screen and (max-width: 575px) {
+    .section-title {
+      width: 95%;
+    }
+  
+    .section p {
+      width: 100%;
+    }
 }
