@@ -181,8 +181,8 @@ footer {
     width: 95%;
 }
 
-.seattle-art {
-    background-image: url("../images/MoPop.JPG");
+.WearYWander {
+    background-image: url("../images/landingPage.png");
     background-size: cover;
     width: 90%;
     height: 475px;
@@ -192,7 +192,7 @@ footer {
     position: relative;
 }
 
-.seattle-art:hover {
+.WearYWander:hover {
         opacity: 75%;
     
 }
