@@ -185,7 +185,7 @@ footer {
     background-image: url("../images/landingPage.png");
     background-size: cover;
     width: 90%;
-    height: 475px;
+    height: 75%;
     margin-top: 1%;
     margin-bottom: 0%;
     border: darkolivegreen 5px solid;
@@ -303,15 +303,24 @@ footer {
     }
 }
   
-  /* for tablets */
-@media screen and (max-width: 768px) {
+
+/* For desktops */ 
+@media screen and (max-width:800px) {
+    .section {
+        padding:0%;
+    }
+}
+
+
+/* for tablets */
+@media screen and (max-width: 700px) {
     section {
       padding: 30px 15px;
     }
 }
   
 /* For Phones and Smaller screens*/
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 500px) {
     .section-title {
       width: 95%;
     }
