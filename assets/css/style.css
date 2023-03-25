@@ -1,3 +1,4 @@
+/* variables */
 :root {
     --offwhite: antiquewhite;
     --olive: darkolivegreen;
@@ -19,21 +20,106 @@ body {
     color: var(--olive);
 }
 
-
-
 h1,
 h2,
 h3 {
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* header/nav styling */
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: gray;
+    color: var(--offwhite);
+    padding: 3px;
+}
 
-/* class styling */
+header h1 {
+    font-size: 38px;
+    margin-left: 1rem;
+}
+
+nav li{
+    display: inline-block;
+    margin: 15px 3px 3px 3px;
+    padding: 3px;
+}
+
+nav li:hover {
+    color: var(--sea-green);
+    text-decoration: overline;
+    cursor: pointer;
+}
+
+/* banner styling */
+#banner img {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#banner h3 {
+    position: absolute;
+    font-size: 28px;
+    top: 20rem;
+    left: 28rem;
+
+    color: var(--offwhite);
+}
+
+/* content styling */
+.sections {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+}
+
+.section-title {
+    flex-wrap: wrap;
+    display: block;
+    padding: 20px;
+}
+
+/* about me section styling */
+#about-me {
+    display; inline-block;
+}
+
+#me-picture {
+    height: 300px;
+    width: 175x;
+    flex-wrap: wrap;
+    float: right;
+    justify-content: flex-end;
+    border-radius: 3%;
+}
+
+/* work section styling */
+.app-container {
+    position: relative;
+}
+
+.app-container .app-name {
+    position: absolute;
+    font-size: 18px;
+    bottom: 14px;
+    left: 8px;
+    background-color: rgba(250, 235, 215, 0.8);
+    color: var(--olive);
+    padding: 8px 20px 8px 8px;
+    text-align: left;
+}
+
 .app-picture {
     height: 275px;
     width: 400px;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+    border: 4px solid var(--sea-green);
 }
 
 .app-picture:hover {
@@ -41,30 +127,31 @@ h3 {
     -webkit-filter: grayscale(0);
 }
 
-/* id styling */
-#me-picture {
-    height: 300px;
-    width: 175x;
-}
-
 #concert-picture {
     height: 550px;
     width: 875px;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+    border: 4px solid var(--sea-green);
 }
 
 #concert-picture:hover {
     filter: none;
     -webkit-filter: grayscale(0);
+    
 }
 
 
-/* contact icons styling */
+
+/* contact section styling */
 .icons {
+    width: 100%;
     display: inline-block;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    
 }
-
 
 #cell-icon {
     height: 100px;
