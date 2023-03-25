@@ -1,0 +1,87 @@
+:root {
+    --offwhite: antiquewhite;
+    --olive: darkolivegreen;
+    --sea-green: darkseagreen;
+    --slate: darkslategray;
+    --rose: rosybrown;
+}
+
+/* universal styling */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* element styling */ 
+body {
+    background-color: var(--offwhite);
+    color: var(--olive);
+}
+
+
+
+h1,
+h2,
+h3 {
+
+}
+
+
+/* class styling */
+.app-picture {
+    height: 275px;
+    width: 400px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.app-picture:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+/* id styling */
+#me-picture {
+    height: 300px;
+    width: 175x;
+}
+
+#concert-picture {
+    height: 550px;
+    width: 875px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#concert-picture:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+
+/* contact icons styling */
+.icons {
+    display: inline-block;
+}
+
+
+#cell-icon {
+    height: 100px;
+    width: 100px;
+}
+
+#email-icon {
+    height: 100px;
+    width: 100px;
+}
+
+#github-icon {
+    height: 130px;
+    width: 130px;
+}
+
+#spotify-icon {
+    height: 125px;
+    width: 125px;
+}
