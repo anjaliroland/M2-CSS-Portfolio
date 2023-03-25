@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anjali's Portfolio</title>
+    <link rel="stylesheet" type="text.css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Anjali's Portfolio</title>
+   
 </head>
 <body>
     <!-- header & nav -->
     <header>
-        <h1>Anjali Roland</h1>
+        <h1>ANJALI ROLAND</h1>
         <nav>
             <ul>
-                <li><a href="#about-me"></a>About Me</li>
-                <li><a href="#work"></a>Work</li>
-                <li><a href="#contact-me"></a>Contact Me</li>
-                <li><a href="#"></a>Resume</li>
+                <li><a href="#about-me"></a>ABOUT</li>
+                <li><a href="#work"></a>WORK</li>
+                <li><a href="#contact-me"></a>CONTACT</li>
+                <li><a href="#"></a>RESUME</li>
             </ul>
         </nav>
     </header>
@@ -31,56 +33,61 @@
         <div class="content">
             <!-- about me -->
             <section id="about-me" class="sections">
-                <h2 class="section-title">About Me</h2>
+                <h2 class="section-title">ABOUT ME</h2>
                     <img src="./assets/images/me.jpeg" alt="picture of me" id="me-picture">
-                    <p></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nisi nihil quis repellendus laborum. Voluptatem, dolorem. Vero eaque ad veniam minus, qui, atque, nulla ipsum quisquam quis sunt doloremque ex?</p>
             </section>
 
             <!-- work -->
             <section id="work" class="sections">
-                <h2 class="section-title">Work</h2>
+                <h2 class="section-title">WORK</h2>
                 
                 <!-- main application -->
-                    <article id="main-app" class="apps">
-                        <p><a href="https://www.google.com/" target="_blank">
+                    <article id="main-app" class="app-container">
+                        <a href="https://www.google.com/" target="_blank">
                             <img src="./assets/images/concert.JPG" id="concert-picture"  alt="picture of a concert stage">
-                        </a>Music Live<br/><font size="-0.5">APIs</font></p>
+                        </a>
+                        <p class="app-name"><strong>Music Live</strong><br/><font size="-0.8">APIs</font></p>
                     </article>
 
                 <!-- other applications -->
                 <!-- fake app 2 -->
-                    <article id="fake-app2" class="apps other-apps">
-                        <p><a href="https://anjaliroland.github.io/landing-page-mini/" target="_blank">
+                    <article id="fake-app2" class="app-container other-apps">
+                        <a href="https://anjaliroland.github.io/landing-page-mini/" target="_blank">
                             <img src="./assets/images/bookclub.png" id="bookclub-picture" class="app-picture" alt="picure of landing page for fake winnie the pooh book club">
-                        </a>Landing Page<br/><font size="-0.5">HTML/CSS</font></p>
+                        </a>
+                        <p class="app-name"><strong>Landing Page</strong><br/><font size="-0.8">HTML/CSS</font></p>
                     </article>
 
                 <!-- fake app 3 -->
-                     <article id="fake-app3" class="apps other-apps">
-                        <p><a href="https://www.google.com/" target="_blank">
+                     <article id="fake-app3" class="app-container other-apps">
+                        <a href="https://www.google.com/" target="_blank">
                             <img src="./assets/images/snow.JPG" id="snow-picture" class="app-picture"alt="picture of snow covered trees">
-                        </a>Snow Days<br/><font size="-0.5">JavaScript</font></p>
+                        </a>
+                        <p class="app-name"><strong>Snow Days</strong><br/><font size="-0.8">JavaScript</font></p>
                     </article>
 
                 <!-- fake app 4 -->
-                    <article id="fake-app4" class="apps other-apps">
-                        <p><a href="https://www.google.com/" target="_blank">
+                    <article id="fake-app4" class="app-container other-apps">
+                        <a href="https://www.google.com/" target="_blank">
                             <img src="./assets/images/trail.JPG" id="trail-picture" class="app-picture" alt="picture over looking a mountain from a hiking trail">
-                        </a>Trail Buddy<br/><font size="-0.5">Node/Express</font></p>
+                        </a>
+                        <p class="app-name"><strong>Trail Buddy</strong><br/><font size="-0.8">Node/Express</font></p>
                     </article>
 
                 <!-- fake app 5 -->
-                    <article id="fake-app5" class="apps other-apps">
-                        <p><a href="https://www.google.com/" target="_blank">
+                    <article id="fake-app5" class="app-container other-apps">
+                        <a href="https://www.google.com/" target="_blank">
                             <img src="./assets/images/park.JPG" id="picnic-picture" class="app-picture" alt="picture of daisy filled grass with a yellow and white striped blanket in the corner">
-                        </a>Park & Play<br/><font size="-0.5">React/JavaScript</font></p>
+                        </a>
+                        <p class="app-name"><strong>Park + Play</strong><br/><font size="-0.8">React/JavaScript</font></p>
                     </article>    
                     
             </section>
 
             <!-- contact me -->
             <section id="contact-me" class="sections">
-                <h2 class="section-title">Contact</h2>
+                <h2 class="section-title">CONTACT</h2>
                 <!-- cell -->
                 <article id="phone" class="contact-links">
                     <a href="tel:1234567890">
@@ -111,11 +118,5 @@
             </section>
         </div>
     </main>
-
-    <!-- footer -->
-    <footer>
-        <h3></h3> 
-    </footer>
-    
 </body>
 </html>
