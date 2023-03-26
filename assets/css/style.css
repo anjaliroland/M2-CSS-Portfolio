@@ -27,6 +27,16 @@ p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+h2 {
+    display: flex;
+    width: 25%;
+    margin: 3%;
+    font-size: 28px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: var(--sea-green) solid 4px;
+}
+
 /* header/nav styling */
 header {
     display: flex;
@@ -82,35 +92,31 @@ nav li:hover {
     display: flex;
 }
 
-.section-title {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    font-size: 35px;
-    margin: 5 auto 0 auto;
-    padding: 5%px;
-    width: 10%;
-    text-align: end;
-    border-bottom: var(--sea-green) solid 4px;
-}
-
 /* about me section styling */
 #about-me {
-    display; inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #about-me p {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-    width: 40%;
+    margin: 2% 3% 2% 12%;
+    width: 50%;
+    font-size: 18px;
 }
 
 #me-picture {
-    height: auto;
+    display: flex;
+    height: 15%;
     width: 20%;
+    margin-top: 2%;
+    margin-right: 10%;
     flex-wrap: wrap;
+    justify-content: flex-end;
     align-items: flex-end;
     border-radius: 3%;
 }
@@ -123,11 +129,11 @@ nav li:hover {
 .app-container p {
     position: absolute;
     font-size: 18px;
-    bottom: 14px;
-    left: 8px;
+    bottom: .875rem;
+    left: .5rem;
     background-color: rgba(250, 235, 215, 0.8);
     color: var(--olive);
-    padding: 8px 20px 8px 8px;
+    padding: .5rem 1.25rem .5rem .5rem;
     text-align: left;
 }
 
@@ -135,16 +141,13 @@ nav li:hover {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    height: 275px;
-    width: 400px;
+    margin: 2% 10% 10% 1%;
+    height: 17rem;
+    width: 25rem;
     background-size: cover;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     border: 4px solid var(--sea-green);
-    margin: 2% 0.5% 2% 0;
 }
 
 .other-apps:hover {
@@ -154,8 +157,8 @@ nav li:hover {
 
 #work {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
@@ -165,8 +168,9 @@ nav li:hover {
 #main-app {
     background-image: url(../images/concert.JPG);
     background-size: cover;
-    height: 550px;
-    width: 875px;
+    height: 34.4rem;
+    width: 54.7rem;
+    margin-bottom: 1%;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     border: 4px solid var(--sea-green);
@@ -175,6 +179,14 @@ nav li:hover {
 #main-app:hover {
     filter: none;
     -webkit-filter: grayscale(0);  
+}
+
+#smaller-apps {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 3% 0%;
 }
 
 #bookclub {
