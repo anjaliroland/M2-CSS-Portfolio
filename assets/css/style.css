@@ -141,7 +141,7 @@ nav li:hover {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    margin: 2% 10% 10% 1%;
+    margin: 2% 10% 10% 0%;
     height: 17rem;
     width: 25rem;
     background-size: cover;
@@ -206,12 +206,45 @@ nav li:hover {
 }
 
 /* contact section styling */
+.icon-name{
+    font-size: 16px;
+    color: var(--slate);
+    margin-bottom: 5%;
+    display: block;
+    justify-content: center;
+    width: 70%;
+    margin-left: 45%;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 .icons {
-    width: 100%;
-    display: inline-block;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: space-around;  
+    width: 50%;
+    height: 100%;
+    margin-left: 30%;
+    padding-bottom: 3%;
+}
+
+#contact-me {
+    display: flex;
+    justify-content: center;
+    padding: 3% 2%;
+    width: 70%;
 }
 
 /* different sized display styling */
