@@ -248,3 +248,17 @@ a:active {
 }
 
 /* different sized display styling */
+/* for smaller desktops*/
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* for tablets */
+@media screen and (max-width: 768px) {
+    
+}
+
+/* for phones/mobile */
+@media screen and (max-width: 480px) {
+    
+}
