@@ -1,4 +1,4 @@
-# Starter Portfolio
+# Boot Camp Portfolio
 
 ## Description
 
@@ -24,6 +24,6 @@ Please refer to the LICENSE in the repo.
 
 ## Links
 
-Deployed Application: 
+Deployed Page: https://anjaliroland.github.io/M2-CSS-Portfolio/
 
 Repository: https://github.com/anjaliroland/M2-CSS-Portfolio
