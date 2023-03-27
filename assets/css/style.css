@@ -20,6 +20,22 @@ body {
     color: var(--olive);
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 h1,
 h2,
 h3, 
@@ -52,13 +68,14 @@ header h1 {
     margin-left: 1rem;
 }
 
-nav li{
+nav a{
     display: inline-block;
     margin: 15px 3px 3px 3px;
     padding: 3px;
+    color: var(--offwhite);
 }
 
-nav li:hover {
+nav a:hover {
     color: var(--sea-green);
     text-decoration: overline;
     cursor: pointer;
@@ -214,22 +231,6 @@ nav li:hover {
     justify-content: center;
     width: 70%;
     margin-left: 45%;
-    text-decoration: none;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
     text-decoration: none;
 }
 
