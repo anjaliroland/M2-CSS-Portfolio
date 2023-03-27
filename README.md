@@ -14,7 +14,7 @@ For this challenge we were tasked with createing a portfolio page with HTML and 
 
 ## Usage
 
-Below is a gif of my portfolio page, if you click on any of the projects in the work section; they will all take you to a new tab with an empty google search, except for the Landing Page project that will take you to a deployed mini project of mine. The contact links will also open in new tabs, except the cell will ask how you would like to call the number, and the email will open a draft email with the linked email in the address line.
+Below is a gif of my portfolio page. In the header there are links to the sections that when clicked will automatically scroll to the specified section. In the work section, if you click on any of the projects in the work section, they will all take you to a new tab with an empty google search, except for the Landing Page project that will take you to a deployed mini project of mine. The contact links will also open in new tabs, except the cell will ask how you would like to call the number, and the email will open a draft email with the linked email in the address line.
 
 ![gif of portfolio page](./assets/images/portfolioGif.gif)
 
