@@ -168,8 +168,8 @@ nav a:hover {
 }
 
 #main-app {
-    background-image: url(../images/concert.JPG);
-    background-size: cover;
+    background-image: url(../images/campricorn1.png);
+    background-size: contain;
     height: 34.4rem;
     width: 54.7rem;
     margin-bottom: 1%;
